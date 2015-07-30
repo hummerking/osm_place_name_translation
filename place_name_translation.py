@@ -92,7 +92,7 @@ def trans_db(dbname):
             print dbname + "|" + str(row['osm_id']) + "|" + name + "|" + name_trans + "|"
 
 try:
-    conn = psycopg2.connect("dbname='osmgis' user='osmgis' host='localhost' password='mfw1101'")
+    conn = psycopg2.connect("dbname='osmgis' user='osmgis' host='localhost' password='******'")
 except:
     print "I am unable to connect to the database"    
 
